@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+
+html 	{
+		min-width: 966px;
+		background: ##F2F2F2;
+		overflow:scroll;
+		overflow-x:hidden;
+		}
+
+body	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		text-align: center;
+		background: #f2f2f2;
+		font: 12px 微软雅黑,Verdana, Arial, Helvetica, sans-serif;
+		letter-spacing:0;
+		}
+
+.header{
+		width: 100%;
+		height: 4em;
+		background: black;
+}
+.menu {
+	width: 9em;
+	height: 4em;
+	display: inline;
+	font-size: 1.5em;
+	text-align: center;
+	line-height:2.3em;
+	margin:0;
+	padding:0;
+	float:left;
+    font-weight:900;
+	
+}
+.menutext {
+    color: #FFF;
+	font-style: normal;
+}
+div.menu a:link,div.menu a:visited{
+
+		text-decoration:none;
+		padding-bottom:0.8em;
+		padding-top:1em;
+		padding-left:1em;
+		padding-right:1em;
+}
+div.menu a:hover{
+	background-color:#FFF;
+	color: #124191;
+}
+#productdetails{
+	background-color:#FFF;
+	color: #124191;
+}
+#aboutus{
+	background-color:#FFF;
+	color: #124191;
+}
+#firstpage{
+	margin-left:12.5%;	
+	text-align:left;
+	padding-left:0em;
+}
+#register,#login{
+	width: 5em;
+	float:right;
+	font-size:1em;
+	font-weight:300;
+	padding-bottom:0.8em;
+	padding-top:0.9em;
+	padding-left:0em;
+	padding-right:0em;
+}
+.show{
+	margin-left:12.5%;
+	margin-right:12.5%;
+	margin-top:1em;
+	margin-bottom:1em;
+
+}
+.showimage{
+	width:100%;
+	height:80%;
+}
+div.show a:link,div.show a:visited{
+	text-decoration:none;
+	font-size:2.5em;
+	color: #124191;	
+}
+div.show a:hover,div.blocks a:hover{
+	text-decoration:none;
+	color: #81B6C6;
+}
+.insidetext{
+	background-color:#FFF;
+	font-weight:600;
+	margin-top:-6em;
+	padding-bottom:0.5em;
+	padding-top:0.5em;
+	padding-left:2em;
+	padding-right:1em;
+	text-align:left;
+	width:8.5em;
+    opacity: 0.7;
+}
+.brtext{
+	font-size:0.7em;
+    font-weight:200;
+}
+
+.blocks{
+	float:left;
+	text-align:left;
+	margin-right:1%;
+	margin-top:1em;
+	margin-bottom:1em;
+	background:#FFF;
+	width:18%;
+	height:15em;
+	display: inline;
+		
+}
+
+.blocks#leftblock1{
+	margin-left:12.5%;	
+}
+.blocks#rightblock1{
+	margin-right:12.5%;	
+}
+.blocksinsidetext{
+	font-weight:300;
+	text-align:left;
+	margin:0.6em;
+	
+}
+div.blocks img{
+	width:100%;
+	height:auto;
+	margin-top:20%;
+	
+}
+a{
+  text-decoration:none;	
+}
+
+.blockslink{
+	margin:0;
+	font-size:1.8em;
+	color:#124191;
+}
+
+.bottom{
+	margin-top:5em;
+	float:left;
+	text-align:left;
+	background:#FFF;
+	width:100%;
+	height:13em;
+	display: inline;		
+}
+#bottomtextleft1{
+	margin-left:12.5%;
+}
+.bottomtext{
+	font-size:1em;
+	margin:2em 2em 2em 2em;
+	display:inline-block;
+}
+div.bottomtext a:link,div.bottomtext a:visited{
+	color:#666;
+}
+div.bottomtext a:hover{
+	color: #81B6C6;
+}
+#rightbottomtext1{
+	margin-right:12.5%;
+	margin-top:1em;
+	float:right;
+}
+#bottomtextleft2{
+	margin-left:12.5%;
+	margin-top:0;
+	font-size:1em;
+	color:#CCC;
+}
+
+
+.mesWindow{
+border:#666 1px solid;
+background:#fff;
+}
+.mesWindowTop{
+height:30px;
+border-bottom:#eee 1px solid;
+margin-left:4px;
+padding:0.5em;
+font-weight:bold;
+text-align:left;
+font-size:12px;
+}
+.mesWindowContent{
+margin:4px;
+font-size:12px;
+}
+.mesWindow .close{
+height:15px;
+width:28px;
+border:none;
+cursor:pointer;
+text-decoration:underline;
+background:#fff
+}
+
+.register{
+	margin:3em 12.5% 3em 12.5%;
+	background-color:#FFF;
+
+}
+.regtable{
+	margin-left:30%;
+}
+
+.prodescribtion{
+	float: left;
+	text-align: centre;
+	margin-right: 1%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background: #FFF;
+	width: 100%;
+	height: 300px;
+	display: inline;
+	color: #124191;
+	padding-top: 1em;
+}
+
+hr {
+	color: #336600;
+	height: 2px;
+}
+table {
+	background-color: #FFFFFF;
+	border: 1px solid #666666;
+	position: relative;
+	width: auto;
+	height: auto;
+}
+#back {
+	height: 50px;
+	line-height: 50px;
+	clear:both;
+    font-size: 14px;
+	color: #990000;
+	text-decoration: none;
+}
+#back a:link,#back a:visited {
+	font-family: "幼圆";
+}
+	
+#back a:hover {
+	color: #FFFFFF;
+	background-color: #990000;
+}
+th,td {
+	width: 150px;
+	border: 0px none #666666;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #000000;
+}
+th {
+	background-color: #CCCCCC;
+}
+.cbox1 {
+	height: 25px;
+	width: 80px;
+}
+.cbox2 {
+	height: 25px;
+	width: 200px;
+}
+.cbox3 {
+	height: 200px;
+	width: 200px;
+}
+#info {
+	font-size: 14px;
+	color: #990000;
+	font-family: "幼圆";
+}
+
+
+/*	3D轮播图 */
+#phoneCarousel{
+	/*	This is the carousel section, it
+		contains the stage and the arrows */
+	height:390px;
+	margin:90px auto 120px;
+	position:relative;
+	width:800px;
+	min-height:700px;
+	margin:0 auto;
+	position:relative;
+	padding-top:1px;
+}
+
+
+#phoneCarousel .arrow{
+	/* The two arrows */
+	width:44px;
+	height:44px;
+	background:url('img/arrows.png') no-repeat;
+	position:absolute;
+	top:50%;
+	margin-top:-22px;
+	left:0;
+	cursor:pointer;
+}
+
+#phoneCarousel .next{
+	/* Individual styles for the next icon */
+	background-position:right top;
+	left:auto;
+	right:0;
+}
+
+/* Hover styles */
+
+#phoneCarousel .arrow:hover{
+	background-position:left bottom;
+}
+
+#phoneCarousel .next:hover{
+	background-position:right bottom;
+}
+
+#logo{
+	background:url('img/logo.png') no-repeat;
+	height:40px;
+	text-indent:-9999px;
+	width:210px;
+	display:block;
+}
+
+#stage{
+	/* The stage contains the animated  images */
+	left:50%;
+	margin-left:-350px;
+	position:absolute;
+	width:700px;
+	height:100%;
+}
+
+#stage img{
+	/* Hiding all the images by default */
+	display:none;
+}
+
+#stage .default{
+	/*	This class is applied only to the iphone img by default
+		and it is the only one visible if JS is disabled */
+	display:block;
+	left:50%;
+	margin-left:-135px;
+	position:absolute;
+}
+
+#stage .animationReady{
+	/* This class is assigned to the images on load */
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#page{
+	/* This the main container div */
+	width:1000px;
+	min-height:700px;
+	margin:0 auto;
+	/*background:url('img/bokeh.jpg') no-repeat 0 120px;*/
+	position:relative;
+	padding-top:1px;
+}
+.text{	margin-top:70px;width:75%; margin:auto;text-align: left;
+font-size:14px;
+	/*color:#515151;*/
+	/*background:url('img/bg.png') repeat-x #f6f8f9;*/
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif; }
+
+.text h3{
+	padding-bottom:15px;
+	line-height:1.4;
+	text-align:justify;
+}
+
+.text h3{	font-size:30px;}
+.text p{	font-size:20px;}
+
+.thumb{	float:left;margin-right:40px;}
+
+
+
+
