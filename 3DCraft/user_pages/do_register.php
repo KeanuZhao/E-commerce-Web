@@ -1,0 +1,23 @@
+<?php
+
+	$DBConnection = mysqli_connect("localhost", "root", "000000");
+	echo mysqli_error($DBConnection);
+
+    mysqli_query($DBConnection,"USE craft;");
+	echo mysqli_error($DBConnection);
+
+
+    mysqli_query($DBConnection,"CALL insertUser('".$_POST['register_username']."','".$_POST['register_password']."',@success);");
+	$result = mysqli_query($DBConnection,"SELECT @success");
+
+
+	$row = mysqli_fetch_array($result);
+	if($row[0] == TRUE)
+		header("Location: login.php");//×¢²á³É¹¦Ìø»ØµÇÂ¼Ò³Ãæ
+	else header("Location: register.php");//×¢²áÊ§°ÜÌø»Ø×¢²áÒ³Ãæ
+
+    mysqli_free_result($result);
+    mysqli_close($DBConnection);
+
+	
+?>

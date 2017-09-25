@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/user_pages/do_customization.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/user_pages/do_login.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/user_pages/search_result.php" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
